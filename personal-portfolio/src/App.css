@@ -92,6 +92,10 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
+.text1{
+  color:white;
+  font-weight: bold;
+}
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
@@ -149,6 +153,7 @@ span.navbar-text {
 	z-index: 1;
 	transition: 0.3s ease-in-out;
 }
+
 .social-icon a:hover img {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
@@ -355,6 +360,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
   text-align: center;
 }
+.projects h3{
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 10px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
 .projects p {
   color: #B8B8B8;
   font-size: 18px;
@@ -416,6 +430,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
+
 }
 .proj-imgbx {
   position: relative;
@@ -551,6 +566,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.text1{
+  color:#fff;
+  font-weight: bold;
+}
 .newsletter-bx {
   background: #FFFFFF;
   border-radius: 55px;
@@ -614,10 +634,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer img {
   width: 26%;
 }
+.social-icon a{
+  justify-content:center;
+  margin-top: 2rem;
+  
+}
 .footer p {
   font-weight: 400;
   font-size: 14px;
   color: #B8B8B8;
   letter-spacing: 0.5px;
+  /* text-align: center; */
   margin-top: 20px;
 }

@@ -2,42 +2,54 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/hiyo.jpeg";
 import projImg2 from "../assets/img/map2procoder.jpg";
-import projImg3 from "../assets/img/youtube.png";
+import yotbe from "../assets/img/youtube.png"
+import map2 from "../assets/img/map2procoder.jpg";
+import xp from "../assets/img/xphouse.jpeg";
+import todo from "../assets/img/todo.png";
+import resm from "../assets/img/resume.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects =()=>{
     const projects = [
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "youtube clone",
+          description: "Youtube clone - reactjs and Api",
+          imgUrl: yotbe,
+          linkurl:"https://glowing-elf-feebfb.netlify.app/",
+        },
+        {
+          title: "Map2procoder",
+          description: "Learning platform using reactjs",
+          imgUrl: map2,
+          linkurl:"https://map2procoder.vercel.app/",
+        },
+        {
+          title: "Hiyo-Expense management app",
+          description: "Android Application",
           imgUrl: projImg1,
+          linkurl:"https://github.com/AshutoshRajGupta/Hiyo-1",
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg2,
+          title: "XpHouse",
+          description: "A Frontend Website",
+          imgUrl: xp,
+          linkurl:"https://github.com/AshutoshRajGupta/Hiyo-1",
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg3,
+          title: "TODO APP",
+          description: "A todo to note activity",
+          imgUrl: todo,
+          linkurl:"https://todo-app-delta-beryl.vercel.app/",
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg1,
-        },
-        {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg2,
-        },
-        {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg3,
+          title: "Digital Resume",
+          description: "Resume using python",
+          imgUrl: resm,
+          linkurl:"https://ashutoshrajgupta-digital-resume-streamlit-app-p5xcsy.streamlit.app/",
         },
       ];
+
+     
     
       return (
         <section className="projects" id='projects'>
@@ -45,7 +57,7 @@ export const Projects =()=>{
                 <Row>
                     <Col size={12}>
                     <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <h3> My All Projects!!!</h3>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -73,11 +85,11 @@ export const Projects =()=>{
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                    <h2>Coming Soon!!!</h2>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <h2>Comming Soon</h2>
                     </Tab.Pane>
                   {/* </Tab.Content> */}
                 </Tab.Container>

@@ -1,6 +1,14 @@
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
+import html from "../../src/assets/img/html-5.gif"
+import css from "../assets/img/css3.gif"
+import javascript from "../assets/img/javascript.gif"
+import react from "../assets/img/react-logo.gif"
+import node from "../assets/img/nodejs.gif"
+import mongodb from "../assets/img/mongo.gif"
+import mysq from "../assets/img/mysql.gif"
+import pythn from "../assets/img/python-logo.gif"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -34,23 +42,39 @@ export const Skills =()=>{
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>My Skills</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={html} alt="Image" />
+                                <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <img src={css} alt="Image" />
+                                <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <img src={javascript} alt="Image" />
+                                <h5>JAVASCRIPT</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={react} alt="Image" />
+                                <h5>REACTJS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={node} alt="Image" />
+                                <h5>NODEJS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={mongodb} alt="Image" />
+                                <h5>MONGODB</h5>
+                            </div>
+                            <div className="item">
+                                <img src={mysq} alt="Image" />
+                                <h5>MYSQL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={pythn} alt="Image" />
+                                <h5>PYTHON</h5>
                             </div>
                         </Carousel>
                     </div>
